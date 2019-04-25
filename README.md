@@ -1,6 +1,9 @@
 Will Task
 ===============
 
+This is a simple app that reads from csv and insert into database using native libraries.
+
+--------------
 How to Install
 --------------
 
