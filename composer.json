@@ -1,0 +1,24 @@
+{
+    "name": "CSV Loader and Insert Database",
+    "description": "A sample application that reads from csv and insert data in to DB",
+    "homepage": "https://github.com/sun-will/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "William Sun",
+            "email": "will_sun80@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Will\\": "src/" 
+            
+        },
+        "classmap": [
+          "src/Database.php"
+        ]
+    }
+}
